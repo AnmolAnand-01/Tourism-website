@@ -71,9 +71,13 @@
     margin-top: 0.8em;
 }
 
-.main-left, .main-right{
+.main-left{
     padding-left: 1em;
+}
+.main-right{
     padding-right: 1em;
+}
+.main-left, .main-right{
     width: 25%;
     display: flex;
     text-align: center;
@@ -116,17 +120,15 @@
     font-size: 1.5rem;
     padding: 0 4rem;
     color: black;
+    margin-top: 1em;
 }
 
 #container-text-1{
-    margin-top: 1em;
+    
     margin-bottom: 0.5em;
 }
 .bgColor{
     background-color: rgb(231,231,231);
-}
-#container-text-2{
-    margin-top: 1em;
 }
 .gallery-container {
     width: calc(100% - 10%);
@@ -166,7 +168,7 @@
 .card img{
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     object-fit: cover;
     cursor: pointer;
 }
@@ -179,7 +181,7 @@
 }
 
 .card img:hover{
-    filter: grayscale(0);
+    filter: grayscale(30%);
 }
 .card:hover .caption{
     opacity: 1;
@@ -369,7 +371,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 625px){
     .main-mid{
         width: 40%;
         font-size: 2.7em;
@@ -416,9 +418,95 @@
         width: 170px;
         margin-left: 0.1em;
     }
+    .container-text{
+        padding: 0 1.5em;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .main-mid{
+        width: 40%;
+        font-size: 2.0em;
+        margin-top: 1.8em;
+    }
+    .main-left-text,.main-right-text{
+        font-size: 1.1em;
+    }
+    .main{
+        height: 55vh;
+    }
+    .bookMarks{
+        padding: 0 0.21em;
+    }
+    .header{
+        height: 3em;
+    }
+    .header-logo{
+        width: 130px;
+        margin-left: 0.1em;
+    }
+    .bookMarks{
+        gap:0.01em;
+    }
+    .box{
+        font-size: 1.2em;
+        padding-left: 0em;
+        padding-right: 1em;
+    }
+    .container-sub-heading,.container-heading,.contactus-heading{
+        font-size: 2.2em;
+    }
+    .container-text{
+        margin-top: 0.5em;
+        padding: 0 1.5em;
+    }
+    .contactus-sub-heading{
+        font-size: 1.4em;
+    }
 }
 
 
+@media screen and (max-width: 340px){
+    .main-mid{
+        width: 40%;
+        font-size: 1.6em;
+        margin-top: 2.3em;
+    }
+    .main-left-text,.main-right-text{
+        font-size: 0.9em;
+    }
+    .main{
+        height: 55vh;
+    }
+    .bookMarks{
+        padding: 0 01em;
+    }
+    .header{
+        height: 3em;
+    }
+    .header-logo{
+        width: 100px;
+        margin-left: 0.1em;
+    }
+    .bookMarks{
+        gap:0.01em;
+    }
+    .box{
+        font-size: 1em;
+        padding-left: 0em;
+        padding-right: 0.6em;
+    }
+    .container-sub-heading,.container-heading,.contactus-heading{
+        font-size: 2.2em;
+    }
+    .container-text{
+        margin-top: 0.5em;
+        padding: 0 1em;
+    }
+    .contactus-sub-heading{
+        font-size: 1.4em;
+    }
+}
 
 
 
