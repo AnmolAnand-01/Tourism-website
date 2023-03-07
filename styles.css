@@ -461,6 +461,9 @@
         margin-top: 0.5em;
         padding: 0 1.5em;
     }
+    .caption{
+        font-size: 1em;
+    }
     .contactus-sub-heading{
         font-size: 1.4em;
     }
