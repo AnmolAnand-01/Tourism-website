@@ -425,12 +425,12 @@
 
 @media screen and (max-width: 420px){
     .main-mid{
-        width: 40%;
-        font-size: 2.0em;
+        width: 38%;
+        font-size: 1.8em;
         margin-top: 1.8em;
     }
     .main-left-text,.main-right-text{
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
     .main{
         height: 55vh;
@@ -440,6 +440,7 @@
     }
     .header{
         height: 3em;
+        gap:5px;
     }
     .header-logo{
         width: 130px;
@@ -449,7 +450,7 @@
         gap:0.01em;
     }
     .box{
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-left: 0em;
         padding-right: 1em;
     }
@@ -468,12 +469,12 @@
 
 @media screen and (max-width: 340px){
     .main-mid{
-        width: 40%;
-        font-size: 1.6em;
-        margin-top: 2.3em;
+        width: 38%;
+        font-size: 1.4em;
+        margin-top: 3.3em;
     }
     .main-left-text,.main-right-text{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     .main{
         height: 55vh;
@@ -483,6 +484,7 @@
     }
     .header{
         height: 3em;
+        gap: 5px;
     }
     .header-logo{
         width: 100px;
@@ -492,7 +494,7 @@
         gap:0.01em;
     }
     .box{
-        font-size: 1em;
+        font-size: 0.9em;
         padding-left: 0em;
         padding-right: 0.6em;
     }
