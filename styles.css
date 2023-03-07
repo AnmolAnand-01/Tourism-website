@@ -418,6 +418,9 @@
         width: 170px;
         margin-left: 0.1em;
     }
+    .caption{
+        font-size: 1em;
+    }
     .container-text{
         padding: 0 1.5em;
     }
@@ -507,6 +510,9 @@
     .container-text{
         margin-top: 0.5em;
         padding: 0 1em;
+    }
+    .caption{
+        font-size: 1em;
     }
     .contactus-sub-heading{
         font-size: 1.4em;
