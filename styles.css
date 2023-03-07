@@ -92,8 +92,6 @@
     text-shadow: 1px 1px 1px black;
 }
 
-
-
 .container{
     background-color: #dfdede;
     color: rgb(177, 177, 177);
@@ -240,6 +238,8 @@
   }
   
   .formfield-textarea{
+    /* font-weight:500; */
+    /* font-size:18px; */
     height:auto;
     padding-top:1rem;
   }
